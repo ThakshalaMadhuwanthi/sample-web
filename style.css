@@ -1,0 +1,294 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    height: 100vh;
+    width: 100vw;
+}
+.pagecon{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    
+}
+.p1{
+    width: 50%;
+    height: 100%;
+    background-image: url(image1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.p2{
+    width: 50%;
+    height: 100%;
+    background-color: bisque;
+    text-align: center;
+    
+}
+.p2 h2{
+    padding-top: 20%;
+}
+.p2 h1{
+    font-size: 50px;
+    color:coral;
+    text-wrap: wrap;
+    justify-content: space-between;
+}
+.but{
+    
+    border: 3px solid black;
+    width: 140px;
+    height: 55px;
+    transition: background transform 0.5s;
+
+}
+.but a{
+    text-decoration: none;
+    color: black;
+}
+.but:hover{
+ background-color: burlywood;
+ transform: scale(1.2);
+ color: chocolate;
+}
+.paget{
+    background-color:beige;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color:rgb(59, 34, 2);
+    text-wrap: wrap;
+    justify-content: space-between;
+}
+.paget h1{
+    font-size: xx-large;
+    padding-top: 10%;
+    
+}
+.button{
+    width: 150px;
+    height: 60px;
+    border: 3px solid black;
+    border-radius: 15px;
+    transition: color transform 0.5s;
+    background: transparent;
+    
+}
+.button a{
+    text-decoration: none;
+    color: black;
+}
+.button a:hover{
+    color: red;
+}
+.pagetr{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.im{
+    width: 33%;
+    height: 100%;
+    padding: 7% 2%;
+}
+.img{
+    width: 100%;
+    height: 40%;
+}
+.im h1{
+    color: burlywood;
+    padding-top: 20px;
+}
+
+.pagef{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.pagef1{
+    width: 50%;
+    height: 100%;
+    background-image:url(image4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+}
+.pagef2{
+    width: 50%;
+    height: 100%;
+    background-color:linen ;
+    text-align: center;
+}
+.pagef2 h1{
+    padding-top: 20%;
+}
+.pagef2 p{
+    padding-top: 5%;
+}
+.pagef2 h3{
+    color: brown;
+    padding-top: 8%;
+}
+
+
+
+.pagefi{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.pagefi h1{
+    padding-top: 15%;
+    padding-bottom: 10%;
+}
+.con5{
+    display: flex;
+}
+.tex{
+    width: 33%;
+    height: 60%;
+    
+}
+.tex h3{
+    color: coral;
+}
+
+
+
+.pages{
+    width: 100%;
+    height: 100%;
+    background-color: bisque;
+    
+}
+.pages h4{
+    padding: 5% 5%;
+}
+.m{
+    height: 60%;
+    width: 100%;
+    display: flex;
+}
+.n{
+    height: 100%;
+    width: 33%;
+    padding-top: 8%;
+    padding-left: 5%;
+    
+    
+}
+.n h1{
+    color: chocolate;
+}
+@media(max-width : 1150px){
+ .im h3{
+    font-size: 14px;
+ }
+
+}
+@media(max-width : 810px){
+    .p2 h1{
+        font-size: 35px;
+    }
+}
+@media(max-width : 450px){
+    .pagecon{
+        flex-direction: column;
+    }
+    .paget p{
+        font-size: x-small;
+    }
+    .paget h1{
+        font-size: medium;
+    }
+    .p2 h1{
+        font-size: large;
+    }
+    .p2 h2{
+        font-size: medium;
+        padding-top: 3%;
+    }
+    .but{
+        width: 80px;
+        height: 25px;
+    }
+    .p2 h3{
+        font-size: small;
+    }
+    .paget{
+        text-align: center;
+        text-wrap: wrap;
+        justify-content: space-between;
+    }
+    .p1{
+        width: 100%;
+        height: 100%;
+    }
+    .p2{
+        width: 100%;
+        height: 100%;
+    }
+    .button{
+        width: 150px;
+        height: 30px;
+      
+    }
+    .pagef{
+        flex-direction: column;
+    }
+    .pagef1{
+        width: 100%;
+        height: 30%;
+    } 
+    .pagef2{
+        width: 100%;
+        height: 70%;
+    }
+    .pagef2 h1{
+        font-size: small;
+        padding-top: 20px;
+    }
+    .pagef2 h3{
+        font-size: small;
+    }
+    .pagef2 p{
+        font-size: smaller;
+    }
+    .im h3{
+        font-size: xx-small;
+    }
+    .im h1{
+        font-size: medium;
+    }
+    .pagefi h1{
+        font-size: larger;
+        margin-top: 0%;
+        padding-top: 0%;
+    }
+    .con5{
+        flex-direction: column;
+        padding-top: 0;
+        
+    }
+    .tex{
+        
+        padding-left: 10%;
+        padding-right: 10%;
+        font-size: small;
+        padding-top: 0%;
+        
+    }
+    .tex h3{
+        font-size: small;
+    }
+    .m{
+        flex-direction: column;
+        padding-top: 0%;
+    }
+    .n h1{
+        font-size: large;
+        
+    }
+}
